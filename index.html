@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PizzaApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>Pizza</h1>
+      <section>
+        <h2>Pizza Info</h2>
+        <!-- TODO: Replace images with pizza -->
+          ><img src="/VScode Script File/Pizza.jfif" alt="Pepperoni pizza"
+        /></a>
+      </section>
+      <section>
+        <h2>Toppings</h2>
+        <h3>Top pizza toppings:</h3>
+        <ul>
+          <li>Pepperoni</li>
+          <li>Sausage</li>
+          <li>Mushroom</li>
+        </ul>
+        <figure>
+          <img src="/VScode Script File/Pizza2.jfif" alt="A slice of pizza" />
+          <figcaption>Pepperoni is a <em>great</em> topping.</figcaption>
+        </figure>
+        <h3>A few controversal toppings:</h3>
+        <ol>
+          <li>Pineapple</li>
+          <li>Anchovies</li>
+        </ol>
+        <figure>
+          <img
+            src="/VScode Script File/Pizza3.jfif"
+            alt="A pizza pie with many toppings"
+          />
+          <figcaption>
+            Pineapple is a <strong>controversal</strong> pizza topping.
+          </figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Pizza Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Do you prefer cheese on your pizza?</legend>
+            <label
+              ><input
+                id="no cheese"
+                type="radio"
+                name="cheese"
+                value="no cheese"
+                checked
+              >
+              No Cheese</label
+            >
+            <label
+              ><input id="cheese" type="radio" name="cheese" value="cheese">
+              Cheese</label
+            >
+            <label
+              ><input id="double cheese" type="radio" name="cheese" value="double cheese">
+                Double Cheese</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your favorite toppings?</legend>
+            <input
+              id="Pepperoni"
+              type="checkbox"
+              name="topping"
+              value="Pepperoni"
+              checked
+            />
+            <label for="Pepperoni">Pepperoni</label>
+            <input id="Ham" type="checkbox" name="topping" value="Ham">
+            <label for="Ham">Ham</label>
+            <input
+              id="Mushroom"
+              type="checkbox"
+              name="topping"
+              value="Mushroom"
+            />
+            <label for="Mushroom">Mushroom</label>
+            <input
+              id="Peppers"
+              type="checkbox"
+              name="topping"
+              value="Peppers"
+            />
+            <label for="Peppers">Peppers</label>
+            <input
+              id="Pineapple"
+              type="checkbox"
+              name="topping"
+              value="Pineapple"
+            />
+            <label for="Pineapple">Pineapple</label>
+            <input
+              id="Other"
+              type="checkbox"
+              name="topping"
+              value="Other"
+            />
+            <label for="Other">Other</label>
+            <input
+            type="text"
+            name="otherinput"
+            placeholder="Other Toppings:"
+            />
+        </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright -
+        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
